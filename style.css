@@ -1,0 +1,29 @@
+body {
+    background: rgb(158, 158, 158);
+    color: black;
+    font-family: Georgia;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+.button {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#b1 {
+    background: aqua;
+}
+
+#b2 {
+    background: aquamarine;
+}
+
+#b3 {
+    background: cornflowerblue;
+}
+
